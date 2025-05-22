@@ -1,0 +1,40 @@
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  background: #fff url('../Data/Image\ 301.jpg') no-repeat center/cover;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.start-button {
+  padding: 0.625rem 1.25rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
